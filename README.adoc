@@ -16,7 +16,7 @@ The following works:
 ----
 git clone https://github.com/ajneu/cmake_project_via_macro.git
 cd                                 cmake_project_via_macro
-git checkout master^1   ## 2nd last commit
+git checkout master^2   ## 3rd last commit
 
 mkdir build
 cd    build
@@ -35,4 +35,4 @@ cd    build
 cmake -DCOMPILER_SEL=clang ..
 ----
 
-The only difference is https://github.com/ajneu/cmake_project_via_macro/commit/4e614380c416137b0d5a75e5d19d4719298322be[here], where `myproject` is a macro defined in an included file (https://github.com/ajneu/cmake_project_via_macro/blob/master/myproject.cmake[ref]).
+The only difference is https://github.com/ajneu/cmake_project_via_macro/commit/545a7c5e573f4d6cb2ca50ef229cfc0c80a24398[here], where `myproject` is a macro defined in an included file (https://github.com/ajneu/cmake_project_via_macro/blob/master/myproject.cmake[ref]).
