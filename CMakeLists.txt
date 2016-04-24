@@ -30,6 +30,6 @@ endfunction()
 compiler_sel()
 
 include(myproject.cmake)
-project(toplevel)
+myproject(toplevel)
 
 message("### using the following C++ compiler: ${CMAKE_CXX_COMPILER}")
