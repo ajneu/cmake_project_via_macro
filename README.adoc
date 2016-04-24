@@ -16,7 +16,7 @@ The following works:
 ----
 git clone https://github.com/ajneu/cmake_project_via_macro.git
 cd                                 cmake_project_via_macro
-git checkout master^2   ## 3rd last commit
+git checkout 5972c7362e11fdbaa09d9defe8cca2dcea79e606   ## intermediate commit
 
 mkdir build
 cd    build
