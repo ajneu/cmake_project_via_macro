@@ -1,0 +1,12 @@
+= Weird behaviour of cmake's `project` command, when called from a macro (defined in an included file)
+:source-highlighter: prettify
+//                   coderay highlightjs prettify pygments
+:coderay-linenums-mode: inline
+
+ifndef::env-github[]
+:imagesdir: images
+:toc:
+endif::[]
+
+== Overview
+
