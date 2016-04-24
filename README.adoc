@@ -10,3 +10,14 @@ endif::[]
 
 == Overview
 
+The following works:
+
+[source,bash]
+----
+git clone https://github.com/ajneu/cmake_project_via_macro.git
+cd                                 cmake_project_via_macro
+
+mkdir build
+cd    build
+cmake -DCOMPILER_SEL=clang ..
+----
