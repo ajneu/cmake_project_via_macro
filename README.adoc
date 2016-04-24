@@ -35,4 +35,4 @@ cd    build
 cmake -DCOMPILER_SEL=clang ..
 ----
 
-The only difference is
+The only difference is https://github.com/ajneu/cmake_project_via_macro/commit/4e614380c416137b0d5a75e5d19d4719298322be[here], where `myproject` is a macro defined in an included file (https://github.com/ajneu/cmake_project_via_macro/blob/master/myproject.cmake[ref]).
