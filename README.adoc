@@ -16,8 +16,23 @@ The following works:
 ----
 git clone https://github.com/ajneu/cmake_project_via_macro.git
 cd                                 cmake_project_via_macro
+git checkout master^1   ## 2nd last commit
 
 mkdir build
 cd    build
 cmake -DCOMPILER_SEL=clang ..
 ----
+
+But the following does **not** work as expected:
+[source,bash]
+----
+git clone https://github.com/ajneu/cmake_project_via_macro.git
+cd                                 cmake_project_via_macro
+git checkout master     ## last commit
+
+mkdir build
+cd    build
+cmake -DCOMPILER_SEL=clang ..
+----
+
+The only difference is
